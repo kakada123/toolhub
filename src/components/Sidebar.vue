@@ -57,7 +57,7 @@ import {
   onMounted,
   ref,
 } from "vue";
-import { RouterLink, useRouter } from "vue-router";
+import { RouterLink } from "vue-router";
 import { TOOLS, ENABLED_TOOLS, type ToolStatus } from "@/app/tool-registry";
 
 const open = ref(false);
