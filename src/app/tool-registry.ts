@@ -57,7 +57,17 @@ export const TOOLS: ToolDef[] = [
     status: "stable",
     category: "Utilities",
     description: "Generate barcodes instantly from text or numbers.",
-  }
+  },
+  {
+    key: "image-compress",
+    name: "Image Compressor",
+    route: "/tools/image-compress",
+    enabled: true,
+    status: "stable",
+    category: "Utilities",
+    description:
+      "Compress images instantly without uploading — fast, private, and secure.",
+  },
 ];
 
 export const ENABLED_TOOLS = TOOLS.filter((t) => t.enabled);
