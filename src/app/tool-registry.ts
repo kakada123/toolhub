@@ -49,6 +49,15 @@ export const TOOLS: ToolDef[] = [
     category: "POS",
     description: "Ticket + display + call next (later).",
   },
+  {
+    key: "barcode",
+    name: "Barcode Generator",
+    route: "/tools/barcode",
+    enabled: true,
+    status: "stable",
+    category: "Utilities",
+    description: "Generate barcodes instantly from text or numbers.",
+  }
 ];
 
 export const ENABLED_TOOLS = TOOLS.filter((t) => t.enabled);

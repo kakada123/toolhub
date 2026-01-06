@@ -9,13 +9,14 @@ import NotFound from "@/pages/NotFound.vue";
 
 import CalculatorTool from "@/tools/calculator/index.vue";
 import QrTool from "@/tools/qr/index.vue";
+import BarcodeTool from "@/tools/barcode/index.vue";
 
 import { TOOLS } from "./tool-registry";
 
 const toolComponents: Record<string, any> = {
   calculator: CalculatorTool,
   qr: QrTool,
-  // invoice/queue later
+  barcode: BarcodeTool
 };
 
 const toolRoutes: RouteRecordRaw[] = TOOLS.filter((t) => t.enabled).map((t) => {
