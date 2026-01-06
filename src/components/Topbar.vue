@@ -4,13 +4,13 @@
       <!-- Brand -->
       <div class="flex items-center gap-3">
         <img
-          src="@/assets/logo-toolhub.png"
+          src="@/assets/chlart-work.png"
           alt="ToolHub"
           class="h-9 w-9 rounded-xl object-contain"
         />
 
         <div class="leading-tight">
-          <p class="text-sm font-semibold">ToolHub</p>
+          <p class="text-sm font-semibold">ChlatWork</p>
           <p class="text-xs text-gray-500">
             Simple tools that get things done.
           </p>
