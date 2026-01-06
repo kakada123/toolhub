@@ -27,7 +27,7 @@ export const TOOLS: ToolDef[] = [
     name: "QR Generator",
     route: "/tools/qr",
     enabled: true,
-    status: "beta",
+    status: "stable",
     category: "Utilities",
     description: "Generate QR for text/URL.",
   },
